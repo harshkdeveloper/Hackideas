@@ -51,8 +51,8 @@ const ChallengeList = ({ setIsLoggedIn }) => {
         } else {
 
           return (
-            new Date(b.creationDate).getTime() -
-            new Date(a.creationDate).getTime()
+            new Date(a.creationDate).getTime() -
+            new Date(b.creationDate).getTime()
           );
         }
       });
