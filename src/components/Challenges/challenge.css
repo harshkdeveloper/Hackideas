@@ -1,0 +1,29 @@
+.main-content {
+    min-height: calc(100vh - 100px); /* Adjust 100px to match the combined height of your header and pagination */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* This pushes the pagination to the bottom */
+  }
+  /* challenge.css */
+
+/* Base styles */
+.card {
+    width: 100%; /* Full width on small screens */
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .col-md-4 {
+      flex: 0 0 auto; /* Adjust flex settings for grid columns */
+      max-width: 33.333333%; /* 3 columns */
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .card {
+      /* Optionally, set a max-width if cards are too wide on large screens */
+      max-width: 18rem;
+    }
+  }
+  
